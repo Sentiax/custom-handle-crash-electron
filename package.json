@@ -1,6 +1,6 @@
 {
-  "name": "custom-handle-crash-electron",
-  "version": "1.0.0",
+  "name": "custom-crash-handle-electron",
+  "version": "1.0.1",
   "description": "Custom Crash Handle For Electron",
   "main": "index.js",
   "scripts": {
