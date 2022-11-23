@@ -4,9 +4,7 @@ It's crash/err handle
 
 # Installation
 
-```javascript
-npm i custom-handle-crash-electron --save
-```
+`npm i custom-handle-crash-electron --save`
 
 # IMPORT/USE
 
@@ -14,7 +12,7 @@ npm i custom-handle-crash-electron --save
 import { CrashHandler } from 'custom-handle-crash-electron';
 
 CrashHandler({
-   aftercrash: ... //[exit,countinue]
+   aftercrash: ... //[exit,countinue],
    savecrashinlogs: ... //[true,false]
 })
 ```
