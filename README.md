@@ -12,7 +12,7 @@ It's crash/err handle
 import { CrashHandler } from 'custom-handle-crash-electron';
 
 CrashHandler({
-   aftercrash: ... //[exit,countinue],
-   savecrashinlogs: ... //[true,false]
+   aftercrash: countinue,//[exit,countinue]
+   savecrashinlogs: true //[true,false]
 })
 ```
