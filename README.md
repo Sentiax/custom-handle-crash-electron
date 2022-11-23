@@ -9,9 +9,9 @@ It's crash/err handle
 # IMPORT/USE
 
 ```javascript
-import { CrashHandler } from 'custom-handle-crash-electron';
+import { CrashHandle } from 'custom-handle-crash-electron';
 
-CrashHandler({
+CrashHandle({
    aftercrash: true,//[false=exit,true=countinue]
    savecrashinlogs: true //[true,false]
 })
